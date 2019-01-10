@@ -1,0 +1,35 @@
+.contact-container .header {
+    background: black;
+}
+
+.contact__title {
+    font-family: $main-font;
+    text-align: center;
+    margin-top: 7.5rem;
+}
+
+.contact__subtitle {
+    font-family: $main-font;
+    text-align: center;
+    padding-bottom: 7.5rem;
+    border-bottom: 1px solid #BEBEBE;
+    margin-bottom: $xl-size;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button-container {
+    margin: 0 auto;
+    margin-top: $l-size;
+    margin-bottom: 12rem;
+    max-width: 100%;
+}
+
+.form__error {
+    color: red;
+}
+
+

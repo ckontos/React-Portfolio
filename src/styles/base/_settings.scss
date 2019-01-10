@@ -2,6 +2,13 @@
 ///// ---- VARIABLES ----- ///////
 
 // Colors
+$off-black: #111;
+$off-grey: #818181;
+$hover-white: #f1f1f1;
+
+//font size
+$font-size-large: 1.8rem;
+$font-size-small: 1.4rem;
 
 
 // Spacing
@@ -9,3 +16,9 @@ $s-size: 1.2rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
+$xxl-size: 6.4rem;
+$desktop-breakpoint: 50.75rem;
+
+// fonts
+
+$main-font: 'Montserrat', sans-serif;

@@ -1,0 +1,19 @@
+.form-button {
+    color: white;
+    font-family: $main-font;
+    background-color: black;
+    border: none;
+    padding: $s-size $l-size;
+    &:active {
+        color: black;
+        background: white;
+        border: black 2px solid;
+    }
+}
+
+.modal-button {
+    color: white;
+    background: black;
+    border: none;
+    padding: $s-size $l-size;
+}

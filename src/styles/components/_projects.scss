@@ -1,0 +1,19 @@
+.projects-container .header {
+    background: black;
+}
+
+.projects {
+    padding: 0 $m-size;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    padding-top: 6.25rem; 
+}
+
+.projects-title {
+    text-align: center;
+    margin-top: 12.5rem;
+    padding-bottom: 12.5rem;
+    border-bottom: 1px solid #BEBEBE;
+    font-family: $main-font;
+}

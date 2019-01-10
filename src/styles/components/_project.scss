@@ -1,0 +1,60 @@
+.project-container {
+    margin-bottom: $xxl-size;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-description {
+    font-family: $main-font;
+    font-size: $m-size;
+}
+
+.project-tech {
+    font-family: $main-font;
+    font-size: $m-size;
+}
+
+// Image overlay affect
+
+.project__overlay {
+    position: relative;
+    width: 100%;
+}
+.project__overlay .project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+   }
+
+.project__overlay .text {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+   }
+
+.project__overlay .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.project__overlay:hover .hover {
+    opacity: 1;
+}
+
+.project__overlay .hover {
+    background-color: rgba(0,0,0,0.5);
+   }
+
