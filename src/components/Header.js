@@ -17,7 +17,7 @@ const Header = () => (
                 <div className='header__content__recources'>
                     <a href="https://www.linkedin.com/in/c-dimitri-kontos/" target="_blank"><i className="fab fa-linkedin-in header--icon"></i></a>
                     <a href="https://github.com/ckontos" target="_blank"><i className="fab fa-github header--icon header--icon--spacing"></i></a>
-                    <a href="" target="_blank"><i className="fas fa-file header--icon header--icon--spacing"></i></a>
+                    <a href="images/resume.pdf" target="_blank"><i className="fas fa-file header--icon header--icon--spacing"></i></a>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ const About = () => (
                 <p>I am skilled in many front and back end technologies. In terms of styling, I am strong with CSS, SCSS, and CSS frameworks such as Materialize and Bootstrap. On the front end, I am skilled with javascript(ES5/ES6), jQuery, and React JS/Redux.  On the back end I primarily work with node.js to construct my servers, and can work with storage systems such as SQL, MongoDB, and firebase databases.</p>
             </div>
         </div>
-        <Footer />
+        <div><Footer /></div>
     </div>
 )
 
